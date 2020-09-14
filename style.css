@@ -5,14 +5,26 @@ body{
 .container {
     display: flex;
     justify-content: center;
+
 }
 
-.identite{
+.containeridentite{
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 40%;
+    position: absolute;
+}
 
+.containerprofession{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin-right: 6%;
 }
 
 .menu-cv {
