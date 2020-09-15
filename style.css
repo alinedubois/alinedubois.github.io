@@ -1,25 +1,23 @@
-body{
+body {
     background-color: #f0f0f0;
+    font-family: Kumbh Sans, sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: center;
-
 }
 
-.containeridentite{
+.containeridentite {
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
     background-color: white;
-    margin-left: 20%;
-    margin-right: 40%;
-    position: absolute;
+    margin-right: 20px;
 }
 
-.containerprofession{
+.containerphoto {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,23 +28,80 @@ body{
 .menu-cv {
     display: flex;
     flex-direction: column;
-
+    background-color: white;
+    height: 60px;
 }
 
 ul {
     display: flex;
-
+    height: 60px;
+    border: 1px solid green;
 }
 
-li{
+li {
     list-style: none;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
+    text-transform: uppercase;
+    height: 60px;
+    vertical-align: center;
 }
 
-.barre-de-navigation{
-    background-color: white;
+.barre-de-navigation {
+    display: flex;
+    height: 60px;
+}
+
+.identite {
+    padding: 15px 15px 0 15px;
+}
+
+.profession {
+    padding: 0 15px 15px 15px;
+}
+
+.containerdetailidentite {
+    padding: 15px;
+}
+
+.arrondi {
+    border-radius: 6px;
+}
+
+.titre1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.titre2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titre3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+p {
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+}
+
+p strong {
+    color: black;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    padding: 22px 15px;
 }
