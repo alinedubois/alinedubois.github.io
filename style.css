@@ -148,3 +148,14 @@ q {
     flex-direction: column;
     justify-content: center;
 }
+
+.containercv {
+    display: inline-block;
+
+}
+
+.experiencesprofessionelles {
+    background-color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
