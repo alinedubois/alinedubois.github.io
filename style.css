@@ -93,7 +93,7 @@ li {
 p {
     font-size: 12px;
     font-weight: normal;
-    color: gray;
+    color: black;
 }
 
 p strong {
@@ -122,10 +122,28 @@ q {
     font-style: italic;
 }
 
+
+.containermenuglobal {
+    display: inline-block;
+}
+
 .containerdetailmenu {
+    display: flex;
+    background-color: white;
+    margin-top: 15px;
+
+
+}
+
+.menutitre2 {
     display: flex;
     flex-direction: column;
     background-color: white;
     height: 60px;
+}
 
+.menutitre3 {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
 }
