@@ -15,8 +15,13 @@ body {
     font-weight: bold;
     background-color: white;
     margin-right: 20px;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.containerdetailidentite p {
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .containerphoto {
@@ -32,6 +37,8 @@ body {
     flex-direction: column;
     background-color: white;
     height: 60px;
+    min-width: 850px;
+    max-width: 850px;
 }
 
 ul {
@@ -75,23 +82,23 @@ li {
 }
 
 .titre1 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .titre2 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .titre3 {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     color: gray;
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
     color: black;
 }
@@ -111,26 +118,31 @@ p strong {
 }
 
 div.containerphoto img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 q {
     color: gray;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     font-style: italic;
 }
 
 
 .containermenuglobal {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    min-width: 850px;
+    max-width: 850px;
 }
 
 .containerdetailmenu {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     margin-top: 15px;
+    padding: 15px;
 }
 
 .menutitre2 {
@@ -138,7 +150,7 @@ q {
     flex-direction: column;
     background-color: white;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-weight: bold;
 
 }
@@ -150,12 +162,15 @@ q {
 }
 
 .containercv {
-    display: inline-block;
-
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    margin-top: 15px;
 }
 
 .experiencesprofessionelles {
-    background-color: white;
-    display: inline-block;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
