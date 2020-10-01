@@ -205,12 +205,6 @@ q {
 .formationtitre {
     display: flex;
     flex-direction: column;
-    font-weight: bold;
 
 }
 
-.formationtitre {
-    display: flex;
-    flex-direction: column;
-
-}
