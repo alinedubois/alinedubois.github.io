@@ -191,3 +191,26 @@ q {
     flex-direction: column;
 
 }
+
+.containerformation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin-right: 20px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.formationtitre {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.formationtitre {
+    display: flex;
+    flex-direction: column;
+
+}
