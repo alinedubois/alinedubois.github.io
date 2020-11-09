@@ -43,7 +43,6 @@
     <div class="containermenuglobal">
 
 
-
         <div class="menu-cv arrondi">
 
             <div class="barre-de-navigation">
@@ -52,13 +51,35 @@
                     <div class="menu-item"><a href="cv.html">CV</a></div>
                     <div class="menu-item"><a href="portfolio.html">Portfolio</a></div>
                     <div class="menu-item"><a href="formation.html">Formation</a></div>
-                    <div class="menu-item"><a href="contact.html">Contact</a></div>
+                    <div class="menu-item active"><a href="contact.html">Contact</a></div>
                 </div>
             </div>
 
-            <div class="cv"></div>
-
         </div>
+
+    </div>
+
+    <div class="containercontact arrondi">
+
+        <h3>Formulaire de contact</h3>
+
+        <form>
+            <label for="nom">Nom </label>
+            <input type="text" name="nom" id="nom" required />
+
+            <label for="prénom">Prénom </label>
+            <input type="text" name="prénom" id="prénom" required /> <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required/> <br>
+
+            <label for="message">Votre message</label><br />
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+
+            <input type="submit" value="Envoyer" />
+
+        </form>
+
 
     </div>
 
