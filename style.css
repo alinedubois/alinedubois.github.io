@@ -206,13 +206,36 @@ q {
 .containercontact{
     display: flex;
     flex-direction: column;
-    padding: 15px;
     background-color: white;
+    padding: 15px;
     margin-top: 15px;
+    min-width: 820px;
+    max-width: 820px;
 }
 
 :required
 {
-    background-color: gold;
+    border: 1px solid gold;
 }
 
+.formulaire-de-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 15px;
+    min-width: 820px;
+    max-width: 820px;
+}
+
+.libelle-champ {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.champ {
+    padding-right: 10px;
+}
+
+textarea {
+    padding-left: 10px;
+}
